@@ -9,7 +9,14 @@
 }
 
 .content {
-    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+:root {
+    /* background-color: rgb(000, 000, 000); */
+    background-color: #e8e8e8;
+    min-width: 240px;
 }
 
 /* Header
@@ -22,7 +29,7 @@
     text-align: center;
 
     font-size: 28px;
-    padding: 1px 10px 1px 10px;
+    padding-top: 6.5%;
 }
 
 /* .nav-bar  { */
@@ -96,7 +103,7 @@
 */
 
 .nav-bar {
-    padding-top: 12px;
+    padding-top: 0;
     padding-bottom: 12px;
 }
 .nav-bar a:link {
