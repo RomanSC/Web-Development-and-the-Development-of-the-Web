@@ -52,8 +52,14 @@
     padding: 12px;
 }
 
+/* Image in the slideshow */
 .body .js-slideshow .slideshow {
     width: 75%
+}
+
+.body .js-slideshow .slideshow a:hover {
+    width: 75%
+    color: darken;
 }
 
 /* Nav-bar
