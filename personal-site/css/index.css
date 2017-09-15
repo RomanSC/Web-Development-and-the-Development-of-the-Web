@@ -1,0 +1,117 @@
+/* index.css | Roman S. Collins | Thu, Sep 14, 2017 */
+
+/* All
+*/
+
+* {
+    font-family: "Times New Roman", Times, Serif;
+    /* background-color: #e8e8e8; */
+}
+
+/* Header
+*/
+
+.header {
+    width = 100%;
+    background-color: orange;
+    color: #e8e8e8;
+    text-align: center;
+
+    font-size: 28px;
+    padding: 1px 10px 1px 10px;
+}
+
+/* .nav-bar  { */
+/*     background-color: orange; */
+/*     text-align: center; */
+/*     font-size: 32px; */
+/*     font-family: monospace; */
+/*     padding-top: 12px; */
+/*     padding-bottom: 12px; */
+/*     text-decoration: none; */
+/* } */
+
+/* .nav-bar link { */
+/*         text-decoration: none; */
+/* } */
+
+/* table a:hover{ -webkit-transform: scale(1.2); } */
+
+/* .nav-bar:link { */
+/*     text-decoration: none; */
+/* } */
+
+/*
+*/
+
+/* Slideshow
+*/
+.body .js-slideshow {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+}
+
+.body .js-slideshow .slideshow {
+    width: 75%
+}
+
+/* Nav-bar
+*/
+
+.nav-bar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.nav-bar a:link {
+    text-decoration: none;
+    color: #000000;
+}
+.nav-bar a:hover {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+.nav-bar a:visited {
+    text-decoration: none;
+    /* color: #313168; */
+    /* color: #a656e6; */
+    color: #000000;
+}
+
+.nav-bar a:hover,
+.nav-bar a:visited a:hover {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+/* Footing
+*/
+
+.footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #F63832;
+}
+.footer a:link {
+    text-decoration: none;
+    color: #000000;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+.footer a:visited {
+    text-decoration: none;
+    /* color: #313168; */
+    /* color: #a656e6; */
+    color: #000000;
+}
+
+.footer a:hover,
+.footer a:visited a:hover {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+

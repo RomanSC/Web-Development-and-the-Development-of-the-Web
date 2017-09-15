@@ -1,70 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Roman S. Collins</title>
-        <h1>Roman S. Collins</h1> 
-    </head>
+<html lang="en_US">
 
-    <body>
-        <nav id="nav-bar">
-            <img src="">
-            <a href="./blog.html">Blog</a>
-            <a href="./aboutme.html">About Me</a>
-            <a href="https://github.com/RomanSC">Github</a>
-            <a href="./projects.html">Projects</a>
-            <a href="./contact.html">Contact</a>
-        </nav><br/>
+    <link rel = "stylesheet" type="text/css" href="./css/index.css" />
 
-        <div id="scrollable-content">
-            Scrollable content here.
-        </div><br/>
-    </body>
+    <div id="header" class="header">
+        <head>
+            <title>Roman S. Collins</title>
+            <h1>Roman S. Collins</h1>
 
-    <footer id="footing">
+            <div id="nav-bar" class="nav-bar">
+                <a href="./blog.html" id="navtext0">Blog</a>
+                <a href="./aboutme.html" id="navtext1">About Me</a>
+                <a href="https://github.com/RomanSC" id="navtext2">Github</a>
+                <a href="./projects.html" id="navtext3">Projects</a>
+                <a href="./contact.html" id="navtext4">Contact</a>
+            </div>
+        </head>
+    </div>
 
-        <!-- <table>
-            <tr>
-                <td>RomanSC on Github</td>
-                <td>@RomanSCollins on Twitter</td>
-            </tr>
-        </table>
-        -->
+    <div id="body" class="body">
+        <body>
+            <div id="js-slideshow" class="js-slideshow">
+                <!-- TODO 
+                     Scrollable slideshow in Javascript intended to go here. -->
+                <img src="./img/img0.jpg"
+                     id="slideshow"
+                     class="slideshow"
+                     width="20%"
+                     height="20%" /><br/>
 
-        <table width="75%" border="0" cellpadding="0" cellspacing="0">
+                <div id="caption"
+                     class="caption" />./img/img0.jpg</div>
 
-        <tr>
-            <td>
-                <li>
-                    <a href="itemone.html">Item One
-                    </a>
-                </li>
-            </td>
-            <td>
-                <li>
-                    <a href="itemone.html">Item One
-                    </a>
-                </li>
-            </td>
-            <td>
-                <li>
-                    <a href="itemone.html">Item One</a>
-                </li>
-            </td>
-        </tr>
+                <div id="buttons" class="buttons">
+                    <a href="#"
+                       onclick="changeImg(-1);
+                       return false" >Last</a>
+                    <a href="#" 
+                       onclick="changeImg(+1);
+                       return false" >Next</a>
+                </div>
+                
+                <script src="./javascript/slideshow.js"></script>
+            </div>
 
-        <tr>
-            <td height="29"><li><a href="itemone.html">Item One</a></li></td>
-            <td height="29"><li><a href="itemone.html">Item One</a></li></td>
-            <td height="29"><li><a href="itemone.html">Item One</a></li></td>
-        </tr>
+        </body>
+    </div>
 
-        <!-- column1 -->
-        <td>
-            <td height="29"><li><a href="itemone.html">Item One</a></li></td>
-            <td height="29"><li><a href="itemone.html">Item One</a></li></td>
-            <td height="29"><li><a href="itemone.html">Item One</a></li></td>
-        </td>
-
-        </table>
-    </footer>
+    <div id="footer" class="footer">
+        <ul>
+            <li><a href="https://github.com/RomanSC">Github: RomanSC</a><li>
+            <li><a href="https://twitter.com/RomanSCollins">@RomanSCollins</a></li>
+        </ul>
+    </div>
 </html>
