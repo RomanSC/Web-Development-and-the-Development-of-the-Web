@@ -8,6 +8,10 @@
     /* background-color: #e8e8e8; */
 }
 
+.content {
+    padding: 2%;
+}
+
 /* Header
 */
 
@@ -49,17 +53,43 @@
 .body .js-slideshow {
     text-decoration: none;
     text-align: center;
-    padding: 12px;
+    /* padding: 12px; */
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 /* Image in the slideshow */
 .body .js-slideshow .slideshow {
-    width: 75%
+    width: 100%;
+    height: 600px;
+    /* padding-left: 0.10em; */
+    /* padding-right: 0.10em; */
 }
 
-.body .js-slideshow .slideshow a:hover {
-    width: 75%
-    color: darken;
+/* .body .js-slideshow .slideshow a:hover { */
+/*     /1* width: 75% *1/ */
+/* } */
+.body .js-slideshow .slideshow-text {
+    padding: 10px 0px 10px 0px;
+}
+
+.body .js-slideshow .slideshow-text a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.body .js-slideshow .slideshow-text a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+.body .js-slideshow .slideshow-text a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.body .js-slideshow .slideshow-text .buttons {
+    padding: 10px 0px 10px 0px;
 }
 
 /* Nav-bar

@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en_US">
-
     <link rel = "stylesheet" type="text/css" href="./css/index.css" />
 
-    <div id="header" class="header">
-        <head>
-            <title>Roman S. Collins</title>
-            <h1>Roman S. Collins</h1>
+    <div id="content" class="content">
+        <div id="header" class="header">
+            <head>
+                <title>Roman S. Collins</title>
+                <h1>Roman S. Collins</h1>
 
-            <div id="nav-bar" class="nav-bar">
-                <a href="./blog.html" id="navtext0">Blog</a>
-                <a href="./aboutme.html" id="navtext1">About Me</a>
-                <a href="https://github.com/RomanSC" id="navtext2">Github</a>
-                <a href="./projects.html" id="navtext3">Projects</a>
-                <a href="./contact.html" id="navtext4">Contact</a>
-            </div>
-        </head>
-    </div>
-
-    <div id="body" class="body">
-        <body>
-            <div id="js-slideshow" class="js-slideshow">
-                <!-- TODO 
-                     Scrollable slideshow in Javascript intended to go here. -->
-                <img src="./img/img0.jpg"
-                     id="slideshow"
-                     class="slideshow"
-                     width="20%"
-                     height="20%" /><br/>
-
-                <div id="caption"
-                     class="caption" />./img/img0.jpg</div>
-
-                <div id="buttons" class="buttons">
-                    <a href="#"
-                       onclick="changeImg(-1);
-                       return false" >Last</a>
-                    <a href="#" 
-                       onclick="changeImg(+1);
-                       return false" >Next</a>
+                <div id="nav-bar" class="nav-bar">
+                    <a href="./blog.html" id="navtext0">Blog</a>
+                    <a href="./aboutme.html" id="navtext1">About Me</a>
+                    <a href="https://github.com/RomanSC" id="navtext2">Github</a>
+                    <a href="./projects.html" id="navtext3">Projects</a>
+                    <a href="./contact.html" id="navtext4">Contact</a>
                 </div>
-                
-                <script src="./javascript/slideshow.js"></script>
+            </head>
+        </div>
+
+            <div id="body" class="body">
+                <body>
+                    <div id="js-slideshow" class="js-slideshow">
+                        <!-- TODO 
+                             Scrollable slideshow in Javascript intended to go here. -->
+                        <img src="./img/img0.jpg"
+                             id="slideshow"
+                             class="slideshow"
+                             width="20%"
+                             height="20%" /><br/>
+
+                        <div id="slideshow-text" class="slideshow-text">
+                            <div id="caption"
+                                 class="caption" />./img/img0.jpg</div>
+
+                            <div id="buttons" class="buttons">
+                                <a href="#"
+                                   onclick="changeImg(-1);
+                                   return false" >Last</a>
+                                <a href="#" 
+                                   onclick="changeImg(+1);
+                                   return false" >Next</a>
+                            </div>
+                        </div>
+                        
+                        <script src="./javascript/slideshow.js"></script>
+                    </div>
+
+                </body>
+
+            <div id="footer" class="footer">
+                <ul>
+                    <li><a href="https://github.com/RomanSC">Github: RomanSC</a><li>
+                    <li><a href="https://twitter.com/RomanSCollins">@RomanSCollins</a></li>
+                </ul>
             </div>
-
-        </body>
-    </div>
-
-    <div id="footer" class="footer">
-        <ul>
-            <li><a href="https://github.com/RomanSC">Github: RomanSC</a><li>
-            <li><a href="https://twitter.com/RomanSCollins">@RomanSCollins</a></li>
-        </ul>
+        </div>
     </div>
 </html>
