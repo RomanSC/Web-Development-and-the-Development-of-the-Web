@@ -1,26 +1,27 @@
 /* index.css | Roman S. Collins | Thu, Sep 14, 2017 */
 
-/* * { */
-/*     font-family: Helvetica, Sans; */
-/*     /1* background-color: #e8e8e8; *1/ */
-/* } */
-
-.content {
-    font: Sans, 12pt;
-    padding: 0px;
-    background-color: #e8e8e8;
+html {
+    font-family: sans;
+    height: 100%;
+    box-sizing: border-box;
 }
 
-/* head { */
-/*     background-color: blue; */
-/* } */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 .banner {
-    color: rgb(200, 200, 200);
-    background-color: rgb(90, 90, 90);
-
+    color: black;
+    background-color: rgb(200, 200, 200);
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    /* padding: 10px 0px 10px 0px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 1rem;
     font-size: 18pt;
 }
 
@@ -36,12 +37,12 @@
 .nav_bar a:link {
     font-size: 18pt;
     text-decoration: none;
-    color: #e8e8e8;
+    color: black;
 }
 
 .nav_bar a:visited {
     font-size: 18pt;
-    color: rgb(91, 91, 91);
+    color: black;
 }
 
 .nav_bar a:hover,
@@ -50,35 +51,41 @@
     color: white;
 }
 
-/* head { */
-/*     width = 100%; */
-/*     background-color: black; */
-/*     color: #e8e8e8; */
-/*     text-align: center; */
-
-/*     font-size: 28px; */
-/*     padding: 1px 10px 1px 10px; */
-/* } */
-
-/* .nav-bar { */
-/*     background-color: black; */
-/*     text-align: center; */
-/*     font-size: 32px; */
-/*     padding-top: 12px; */
-/* } */
-
 body {
     background-color: #e8e8e8;
     color: black;
-    text-align: left;
     text-indent: 50px;
-    /* padding: 10px 65px 10px 65px; */
+    padding-top: 10em;
 }
 
 .js-slideshow {
-    /* padding: 10px 65px 10px 65px; */
+    width: 75%;
 }
 
-footer {
-    background: white;
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer_content img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer_content img a:hover,
+.footer_content img a:visited {
+}
+
+/* ugly hack to force footer images to the center */
+.footer_content {
+    text-align: center;
+    text-decoration: none;
 }
