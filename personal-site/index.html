@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en_US">
-    <link rel = "stylesheet" type="text/css" href="./css/index.css" />
+    <link rel = "stylesheet" type="text/css" href="./styles/index.css" />
 
-    <img id="site-background-img" class="site-background-img" src=".img/img0.jpg"></img>
+    <div class="content">
 
-    <div id="content" class="content">
-        <div id="header" class="header">
-            <head>
+        <!-- Header -->
+        <head>
                 <title>Roman S. Collins</title>
-                <h1>Roman S. Collins</h1>
+        </head>
 
-                <div id="nav-bar" class="nav-bar">
+        <!-- Body -->
+        <body>
+            <div class="banner">
+                <h1 class="site_title">Roman S. Collins</h1>
+
+                <div class="nav_bar">
                     <a href="./blog.html" id="navtext0">Blog</a>
                     <a href="./aboutme.html" id="navtext1">About Me</a>
                     <a href="https://github.com/RomanSC" id="navtext2">Github</a>
                     <a href="./projects.html" id="navtext3">Projects</a>
                     <a href="./contact.html" id="navtext4">Contact</a>
                 </div>
-            </head>
-        </div>
+            </div>
 
-            <div id="body" class="body">
-                <body>
-                    <div id="js-slideshow" class="js-slideshow">
-                        <!-- TODO 
-                             Scrollable slideshow in Javascript intended to go here. -->
-                        <img src="./img/img0.jpg"
-                             id="slideshow"
-                             class="slideshow"
-                             width="20%"
-                             height="20%" /><br/>
 
-                        <div id="slideshow-text" class="slideshow-text">
-                            <div id="caption"
-                                 class="caption" />./img/img0.jpg</div>
+            <div class="js_slideshow">
+                <div class="slideshow_image">
+                    <img src="./img/img0.jpg"
+                         id="slideshow"
+                         class="slideshow"
+                         width="20%"
+                         height="20%" /><br/>
+                </div>
 
-                            <div id="buttons" class="buttons">
-                                <a href="#"
-                                   onclick="changeImg(-1);
-                                   return false" >Last</a>
-                                <a href="#" 
-                                   onclick="changeImg(+1);
-                                   return false" >Next</a>
-                            </div>
-                        </div>
-                        
-                        <script src="./javascript/slideshow.js"></script>
+                <div class="slideshow_text">
+                    <div class="slideshow_caption" >./img/img0.jpg
                     </div>
-                </body>
 
-            <div id="footer" class="footer">
+                    <div ="slideshow_buttons">
+                        <a href="#"
+                           onclick="changeImg(-1);
+                           return false" >Last</a>
+                        <a href="#" 
+                           onclick="changeImg(+1);
+                           return false" >Next</a>
+                    </div>
+                </div>
+            
+                <script src="./javascript/slideshow.js">
+                </script>
+            </div>
+        </body>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer_table">
                 <ul>
-                    <li><a href="https://github.com/RomanSC">Github: RomanSC</a><li>
-                    <li><a href="https://twitter.com/RomanSCollins">@RomanSCollins</a></li>
+                    <li>
+                        <a href="https://github.com/RomanSC">Github: RomanSC
+                        </a>
+                    <li>
+
+                    <li>
+                        <a href="https://twitter.com/RomanSCollins">RomanSCollins
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </div>
+
+        </footer>
     </div>
 </html>
