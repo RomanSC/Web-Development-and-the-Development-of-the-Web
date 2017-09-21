@@ -1,0 +1,84 @@
+/* index.css | Roman S. Collins | Thu, Sep 14, 2017 */
+
+/* * { */
+/*     font-family: Helvetica, Sans; */
+/*     /1* background-color: #e8e8e8; *1/ */
+/* } */
+
+.content {
+    font: Sans, 12pt;
+    padding: 0px;
+    background-color: #e8e8e8;
+}
+
+/* head { */
+/*     background-color: blue; */
+/* } */
+
+.banner {
+    color: rgb(200, 200, 200);
+    background-color: rgb(90, 90, 90);
+
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 18pt;
+}
+
+.site_title {
+    font-size: 26pt;
+}
+
+.nav_bar {
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.nav_bar a:link {
+    font-size: 18pt;
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+.nav_bar a:visited {
+    font-size: 18pt;
+    color: rgb(91, 91, 91);
+}
+
+.nav_bar a:hover,
+.nav_bar a:visited a:hover {
+    font-size: 18pt;
+    color: white;
+}
+
+/* head { */
+/*     width = 100%; */
+/*     background-color: black; */
+/*     color: #e8e8e8; */
+/*     text-align: center; */
+
+/*     font-size: 28px; */
+/*     padding: 1px 10px 1px 10px; */
+/* } */
+
+/* .nav-bar { */
+/*     background-color: black; */
+/*     text-align: center; */
+/*     font-size: 32px; */
+/*     padding-top: 12px; */
+/* } */
+
+body {
+    background-color: #e8e8e8;
+    color: black;
+    text-align: left;
+    text-indent: 50px;
+    /* padding: 10px 65px 10px 65px; */
+}
+
+.js-slideshow {
+    /* padding: 10px 65px 10px 65px; */
+}
+
+footer {
+    background: white;
+}
